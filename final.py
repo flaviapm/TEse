@@ -4,16 +4,12 @@ import PyPDF3
 import pandas as pd
 import nltk
 import re
-
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from collections import Counter
 from PyPDF3 import PdfFileReader
 from tika import parser
 import matplotlib.pyplot as plt
-
-
-
 
 # Diretórios de entrada e saída
 input_dir = '/Users/flavi/OneDrive/Documentos/TESE/WOKPROJECT'
